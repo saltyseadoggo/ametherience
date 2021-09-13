@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ametherience",
+  "version": "1.0.0",
+
+  "name": "Ametherience",
+  "description": "Gives amethyst geodes new purpose as early game experience farms!",
+  "authors": [
+    "SaltySeaDoggo"
+  ],
+  "contact": {
+    "sources": "https://github.com/saltyseadoggo/ametherience"
+  },
+
+  "license": "Unlicense",
+  "icon": "assets/ametherience/icon.png",
+
+  "environment": "*",
+  "mixins": [
+    "ametherience.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
